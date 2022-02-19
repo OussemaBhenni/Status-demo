@@ -1,0 +1,46 @@
+body{
+  background-color: hsl(233, 47%, 7%);
+  display: flex;
+  justify-content: space-around;
+}
+section{
+  display: flex;
+  margin-top: 170px;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 20px;
+}
+section h2 {
+  font-size: 37px;
+  
+}
+section h2 + p{
+  font-size: 15px;
+}
+h4 {
+  font-weight: bold;
+}
+div.cont{
+  width: 475px;
+
+
+}
+span{
+  color: hsl(277, 64%, 61%);
+}
+
+section >div >div{
+  font-family: 'Open Sans', sans-serif;
+  width: 355px;
+  color: white;
+  margin-left: 47.5px;
+}
+.stats{
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  filter: brightness(0.8) contrast(1.2) grayscale(1) hue-rotate(155deg) saturate(1.9) sepia(0.86) url('#red-sunset-with-purple');
+  border-radius: 0;
+  border-top-right-radius: 15px ;
+  border-bottom-right-radius: 15px ;
+}
