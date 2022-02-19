@@ -45,6 +45,38 @@ section >div >div{
 img {
   filter: brightness(0.8) contrast(1.2) grayscale(1) hue-rotate(155deg) saturate(1.9) sepia(0.86) url('#red-sunset-with-purple');
   border-radius: 0;
-  border-top-right-radius: 15px ;
-  border-bottom-right-radius: 15px ;
+  border-top-right-radius: 20px ;
+  border-bottom-right-radius: 20px ;
+}
+@media (max-width: 475px) {
+  section {
+    margin-top: 40px;
+    flex-direction: column-reverse;
+    width: 90%;
+    margin-left: auto;
+    height: auto;
+    text-align: center;
+  }
+  section >div >div{
+    width: 100%;
+    margin-left: 10px;
+  }
+  
+  div.cont{
+    width: 96%;
+  }
+  img{
+    width: 100%;
+    border-radius: 0;
+    border-top-right-radius: 20px ;
+    border-top-left-radius: 20px ;
+  }
+  section h2 {
+    font-size: 20px;
+  }
+  .stats{
+    flex-direction: column;
+  }
+
+
 }
