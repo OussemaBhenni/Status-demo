@@ -8,6 +8,7 @@ section{
   margin-top: 170px;
   background-color: hsl(244, 38%, 16%);
   border-radius: 20px;
+  height: 447px;
 }
 section h2 {
   font-size: 37px;
@@ -18,6 +19,9 @@ section h2 + p{
 }
 h4 {
   font-weight: bold;
+}
+h4 + P{
+  text-transform: uppercase;
 }
 div.cont{
   width: 475px;
@@ -41,6 +45,6 @@ section >div >div{
 img {
   filter: brightness(0.8) contrast(1.2) grayscale(1) hue-rotate(155deg) saturate(1.9) sepia(0.86) url('#red-sunset-with-purple');
   border-radius: 0;
-  border-top-right-radius: 15px ;
-  border-bottom-right-radius: 15px ;
+  border-top-right-radius: 20px ;
+  border-bottom-right-radius: 20px ;
 }
